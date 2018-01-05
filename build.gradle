@@ -12,5 +12,7 @@ repositories {
 }
 
 dependencies {
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+    compile group: 'com.sparkjava', name: 'spark-core', version: '2.7.1'
     compile group: 'com.github.docker-java', name: 'docker-java', version: '3.0.13'
 }
